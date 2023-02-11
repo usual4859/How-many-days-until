@@ -20,3 +20,8 @@ function updateCountdown() {
         document.getElementById("countdownText").innerHTML = daysUntil + " days until " + inputDate.toDateString();
       }
     }
+function clearCountdown()
+    {
+document.getElementById("countdownText").innerText = "0 days and 0 hours";
+document.getElementById("dateInput").value = "";
+    }
