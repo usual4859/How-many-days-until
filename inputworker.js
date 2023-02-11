@@ -22,6 +22,6 @@ function updateCountdown() {
     }
 function clearCountdown()
     {
-document.getElementById("countdownText").innerText = "0 days and 0 hours";
+document.getElementById("countdownText").innerText = "0 days";
 document.getElementById("dateInput").value = "";
     }
