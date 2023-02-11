@@ -1,5 +1,5 @@
-function updateCountdown() {
-                let inputDate = new Date(document.getElementById("dateInput").value);
+function updateCountdown()
+{                let inputDate = new Date(document.getElementById("dateInput").value);
                 let currentDate = new Date();
                 let diff = inputDate.getTime() - currentDate.getTime();
                 let days = Math.floor(diff / (1000 * 60 * 60 * 24));
@@ -9,7 +9,6 @@ function updateCountdown() {
 }
 function clearCountdown()
     {
-document.getElementById("countdownText").innerText = "";
+document.getElementById("countdownText").innerText = "0 days and 0 hours";
 document.getElementById("dateInput").value = "";
- 
-}
+    }
