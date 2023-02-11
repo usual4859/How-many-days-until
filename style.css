@@ -1,7 +1,12 @@
-    body {
-        font-family: -apple-system, system-ui, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji";
-        text-align:center;
-}
+#countdown {
+                text-align: center;
+            }
+            #countdown input {
+                margin-bottom: 0.5em;
+            }
+            #countdown h2 {
+                font-size: 1.5em;
+            }
 #container {
         margin: auto;
         position: absolute;
