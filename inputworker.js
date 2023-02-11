@@ -6,4 +6,10 @@ function updateCountdown() {
                 let hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
                 let countdownText = `${days} days and ${hours} hours until ${inputDate.toString()}`;
                 document.getElementById("countdownText").innerText = countdownText;
-            }
+}
+function clearCountdown()
+    {
+document.getElementById("countdownText").innerText = "";
+document.getElementById("dateInput").value = "";
+ 
+}
