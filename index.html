@@ -4,8 +4,10 @@
 <script src="inputworker.js" type="text/javascript"></script>
         <title>How Many Days Until...?</title>
 <body>
+    <body>
       <div id="container">
-        <h1>How Many Days Until...?</h1>
+        <h1>How Many Days Until Calculator</h1>
+        <h2 id="countdownText">0 days and 0 hours</h2>
         <div id="countdown">
             <h2>Enter a date and time</h2>
             <input id="dateInput" type="datetime-local">
@@ -14,10 +16,9 @@
      onclick="updateCountdown()"> Calculate
           </button>
               </div>
-          <div>
+              <div>
            <button id="reset" class="button" onclick=clearCountdown()>Reset</button>
               </div>
-            <h2 id="countdownText"></h2>
         </div>
            </div>
 </body>
