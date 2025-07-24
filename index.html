@@ -2,27 +2,26 @@
 <html>
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" type="text/css" href="style.css" />
     <script src="inputworker.js" type="text/javascript"></script>
     <script src="https://code.jquery.com/jquery-1.7.2.min.js" crossorigin="anonymous"></script>
     <title>How Many Days Until...?</title>
   </head>
   <body>
-      <div id="container">
-        <h1>How Many Days Until Calculator</h1>
-        <h2 id="countdownText">0 days and 0 hours</h2>
-        <div id="countdown">
-            <h2>Enter a date and time</h2>
-            <input id="dateInput" type="date">
-            <div>
-          <button class="button" 
-     onclick="updateCountdown()"> Calculate
-          </button>
-              </div>
-              <div>
-           <button id="reset" class="button" onclick=clearCountdown()>Reset</button>
-              </div>
+    <div id="container">
+      <h1>How Many Days Until Calculator</h1>
+      <h2 id="countdownText">0 days and 0 hours</h2>
+      <div id="countdown">
+        <h2>Enter a date</h2>
+        <input id="dateInput" type="date" />
+        <div>
+          <button class="button" onclick="updateCountdown()">Calculate</button>
         </div>
-           </div>
-</body>
+        <div>
+          <button id="reset" class="button" onclick="clearCountdown()">Reset</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
